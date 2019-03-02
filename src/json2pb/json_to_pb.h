@@ -38,6 +38,9 @@ bool JsonToProtoMessage(const std::string& json,
                         google::protobuf::Message* message,
                         std::string* error = NULL);
 
+
+
+
 bool JsonToProtoMessage(google::protobuf::io::ZeroCopyInputStream* stream,
                         google::protobuf::Message* message,
                         std::string* error = NULL);
